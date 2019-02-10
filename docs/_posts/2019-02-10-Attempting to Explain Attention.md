@@ -31,10 +31,13 @@ Testing the display of an image:
 ![seq2seq_attention](../images/test.png){: .align-center}
 
 
-Testing the display of random code:
+Testing out display of code snippet using Github Flavored Markdown (GFM):
 
 ```yaml
-method(args)
-i++
-print ("hello world")
+def method(arbitrary_len=5):
+  i = 0
+  while i<arbitrary_len:
+    i++
+    print ("hello world")
+  print (i)
 ```
