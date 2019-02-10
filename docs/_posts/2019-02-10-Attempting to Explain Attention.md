@@ -1,5 +1,5 @@
 ---
-title: "MathJax Example"
+title: "Attempting to Explain Attention"
 date: 2019-02-10T08:08:50-04:00
 ---
 
@@ -15,8 +15,8 @@ mathjax: true
 print ("hello world")
 ```
 
-$$a^2 + b^2 = c^2$$
-$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+$$ \a^2 + b^2 = c^2 $$
+$$ \x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
 Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block rendering: 
 
