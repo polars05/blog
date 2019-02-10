@@ -33,7 +33,7 @@ Testing the display of an image:
 
 Testing out display of code snippet using Github Flavored Markdown (GFM):
 
-```yaml
+```python
 def method(arbitrary_len=5):
   i = 0
   while i<arbitrary_len:
