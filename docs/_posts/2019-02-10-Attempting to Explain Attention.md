@@ -25,8 +25,16 @@ The only thing to look out for is the escaping of the backslash when using markd
 
 $$ \mathbf{X}\_{n,p} = \mathbf{A}\_{n,k} \mathbf{B}\_{k,p} $$
 
-To test display of code:
+
+Testing the display of an image:
+
+![seq2seq_attention]('/images/test.png'){: .align-center}
+
+
+Testing the display of random code:
 
 ```yaml
+method(args)
+i++
 print ("hello world")
 ```
