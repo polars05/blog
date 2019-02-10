@@ -1,6 +1,6 @@
 ---
 title: "MathJax Example"
-date: 2015-08-10T08:08:50-04:00
+date: 2019-02-10T08:08:50-04:00
 ---
 
 [MathJax](http://www.mathjax.org/) is a simple way of including Tex/LaTex/MathML based mathematics in HTML webpages. To get up and running you need to include the MathJax script in the header of your github pages page, and then write some maths. For LaTex, there are two delimiters you need to know about, one for block or displayed mathematics `\[ ... \]`, and the other for inline mathematics `\( ... \)`.
@@ -12,9 +12,11 @@ To enable MathJax support be sure Kramdown is your Markdown flavor of choice and
 ```yaml
 markdown: kramdown
 mathjax: true
+print ("hello world")
 ```
 
 $$a^2 + b^2 = c^2$$
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 
 Here is an example MathJax inline rendering \\( 1/x^{2} \\), and here is a block rendering: 
 
