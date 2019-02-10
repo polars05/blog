@@ -28,7 +28,7 @@ $$ \mathbf{X}\_{n,p} = \mathbf{A}\_{n,k} \mathbf{B}\_{k,p} $$
 
 Testing the display of an image:
 
-![seq2seq_attention]('/images/test.png'){: .align-center}
+![seq2seq_attention](images/test.png){: .align-center}
 
 
 Testing the display of random code:
