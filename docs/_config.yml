@@ -18,8 +18,8 @@
 remote_theme: mmistakes/so-simple-theme
 
 locale: en-US
-title: "So Simple"
-description: "A simple Jekyll theme for words and pictures."
+title: "polars"
+description: "Trying to explain things simply."
 baseurl: "/blog"
 url: "https://polars05.github.io"
 logo: "/images/so-simple-site-logo.png"
@@ -48,6 +48,8 @@ permalink: /:categories/:title/
 markdown: kramdown
 feed:
   path: atom.xml
+kramdown:
+  input: GFM
 
 # Pagination - https://jekyllrb.com/docs/pagination/
 paginate: 10
